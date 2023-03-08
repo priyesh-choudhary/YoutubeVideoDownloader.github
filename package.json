@@ -1,0 +1,17 @@
+{
+  "name": "ytdl-chrome-extension",
+  "version": "1.0.0",
+  "description": "This project aims to help users build their own simple chrome extension for downloading videos from youtube. # project-setup:",
+  "scripts": {},
+  "author": "Priyesh Choudhary",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ytdl-core": "^2.1.7"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "youtube Extractor"
+  },
+  "main": "index.js"
+}
